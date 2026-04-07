@@ -1,8 +1,8 @@
->version: '3.8'
+version: '3.8'
 services:
   app:
-
-    image: <siko311>/lab8-app:latest
+    # استبدل <your-dockerhub-username> باسمك على دوكر هاب
+    image: siko311/lab8-app:latest 
     build: .
     ports:
       - "3000:3000"
@@ -26,4 +26,3 @@ services:
 
 volumes:
   db_data:
-
