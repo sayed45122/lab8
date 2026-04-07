@@ -6,3 +6,5 @@ CREATE TABLE tasks (
 
 INSERT INTO tasks (name, status) VALUES ('Buy milk', 'pending');
 INSERT INTO tasks (name, status) VALUES ('Do laundry', 'done');
+-- السطر الجديد الخاص بـ Task 3
+INSERT INTO tasks (name, status) VALUES ('Tea', 'pending');
